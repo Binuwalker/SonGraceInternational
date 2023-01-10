@@ -1,0 +1,134 @@
+.Header {
+    border-bottom: 1px solid #a0d1ea;
+}
+
+.header-top {
+    height: 40px;
+    padding-top: 10px;
+    border-left: 1px solid #a0d1ea;
+}
+
+.timing {
+    height: 25px;
+    width: 75.7%;
+    margin-left: 10px;
+    color: #045c8c;
+    font-size: 12px;
+    float: left;
+}
+
+.ic-cal {
+    margin-bottom: 4px;
+}
+
+.ic-clk {
+    margin-bottom: 3px;
+}
+
+.contact {
+    height: 25px;
+    width: 8%;
+    font-size: 13.5px;
+    cursor: pointer;
+    float: left;
+}
+
+.contact:hover {
+    text-decoration: underline;
+}
+
+.vr-line {
+    height: 35px;
+    width: 0.5%;
+    margin-top: -7px;
+    border-left: 1px solid black;
+    float: left;
+}
+
+.ic-mail {
+    margin-bottom: 2px;
+}
+
+.ic-ph {
+    margin-bottom: 3px;
+}
+
+.phone {
+    height: 25px;
+    width: 15%;
+    font-size: 13.5px;
+    float: left;
+}
+
+.logo {
+    width: 80%;
+}
+
+.brand-logo {
+    height: 90px;
+    width: 30%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:850px) {
+    .brand-logo {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:550px) {
+
+    .header-top {
+        height: 40px;
+        padding-top: 10px;
+        border-left: 1px solid #a0d1ea;        
+        border-right: 1px solid #a0d1ea;
+    }
+    
+    .timing {
+        height: 25px;
+        width: 90%;
+        margin-left: 30px;
+        color: #045c8c;
+        font-size: 12px;
+        float: left;
+    }
+
+    .brand-logo {
+        margin-left: 40px;
+        width: 100%;
+    }
+
+    .contact-bottom{
+        position: relative;
+        top: 67px;
+        border-bottom: 1px solid #a0d1ea;
+    }
+
+    .contact {
+        height: 25px;
+        width: 50%;
+        margin-top: 14px;
+        font-size: 13.5px;
+        cursor: pointer;
+        float: left;
+        text-align: center;
+    }
+
+    .vr-line {
+        height: 35px;
+        width: 0.5%;
+        margin-top: 7px;
+        border-left: 1px solid black;
+        float: left;
+    }
+
+    .phone {
+        height: 25px;
+        width: 49.5%;
+        margin-top: 14px;
+        font-size: 13.5px;
+        float: left;
+        text-align: center;
+    }
+}
