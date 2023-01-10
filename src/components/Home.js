@@ -27,7 +27,7 @@ const Home = () => {
                     <div className='features'>
                         <div className='features-item-1'>
                             <img src='/img/gardentomb-israel.jpg' alt='gardentomb-israel' className='features-item-1-img' />
-                            <h1>Welcome to Israel!!</h1>
+                            <h1>Israel!!</h1>
                             <p>The City of Jesus</p>
                         </div>
                         <div className='features-item-2'>
